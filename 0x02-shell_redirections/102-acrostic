@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(cat | cut -b 1 | tr '\n' '\0')
+cut -c 1 | paste -s -d ''
